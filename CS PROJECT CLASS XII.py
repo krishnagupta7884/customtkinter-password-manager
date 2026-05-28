@@ -6,7 +6,6 @@ import random
 import string
 import smtplib
 from email.message import EmailMessage
-from PIL import Image
 import os
 from dotenv import load_dotenv
 
@@ -482,7 +481,6 @@ def login():
     root.minsize(600,300)
     root.geometry('600x300')
     root.title('PASSWORD MANAGER')
-    # bimage=CTkImage(Image.open("D:\study\programming\Python\pass_image.png"),size=(600,300))
 
     root.grid_rowconfigure(0, weight=1)
     root.grid_columnconfigure(0, weight=1)
